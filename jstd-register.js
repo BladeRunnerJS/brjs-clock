@@ -1,0 +1,1 @@
+require('jstd-mocha/register');

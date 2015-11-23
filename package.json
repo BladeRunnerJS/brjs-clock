@@ -1,0 +1,44 @@
+{
+  "name": "brjs-clock",
+  "version": "1.0.0",
+  "description": "\u001b[1;7A\u001b[BA clock for testing.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BladeRunnerJS/brjs-clock.git"
+  },
+  "keywords": [
+    "clock",
+    "testing",
+    "unit-testing"
+  ],
+  "author": "gerard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BladeRunnerJS/brjs-clock/issues"
+  },
+  "homepage": "https://github.com/BladeRunnerJS/brjs-clock#readme",
+  "scripts": {
+    "pretest": "npm run pretest:lint",
+    "pretest:lint": "eslint src test",
+    "test": "npm run test:node && npm run test:browser",
+    "test:node": "mocha test jstd-register.js",
+    "test:node:watch": "mocha test -w",
+    "test:browser": "karma start",
+    "test:browser:debug": "karma start karma-debug.conf.js"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "chai": "^3.0.0",
+    "eslint": "^0.23.0",
+    "expectations": "^0.5.2",
+    "jstd-mocha": "0.0.1",
+    "karma": "^0.12.37",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-cli": "0.0.4",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-mocha": "^0.2.0",
+    "mocha": "^2.2.5"
+  }
+}
