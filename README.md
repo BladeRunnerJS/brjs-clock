@@ -13,7 +13,7 @@ To install brjs-clock use:
 ```javascript
 'use strict';
 
-var Clock = require('../src/Clock.js')
+var Clock = require('../src/Clock.js');
 var expect = require('expectations');
 
 describe('Clock', function() {
@@ -29,11 +29,11 @@ describe('Clock', function() {
 
 		setTimeout(function() {
 			timeoutCounter++;
-		}.bind(this), 1000);
+		}, 1000);
 
 		setInterval(function() {
 			intervalCounter++;
-		}.bind(this), 2000);
+		}, 2000);
 	});
 
 	afterEach(function() {
