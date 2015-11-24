@@ -1,14 +1,12 @@
 'use strict';
 
-var Clock = require('../src/Clock.js');
+var clock = require('..');
 var expect = require('expectations');
 
 describe('Clock', function() {
-	var clock;
 	var timeoutCounter, intervalCounter;
 
 	beforeEach(function() {
-		clock = new Clock();
 		clock.install();
 
 		timeoutCounter = 0;

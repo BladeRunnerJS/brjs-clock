@@ -35,6 +35,7 @@ Clock.prototype.install = function() {
 };
 
 Clock.prototype.uninstall = function() {
+	this.reset();
 	this.installed = false;
 	global.setTimeout = this.origSetTimeout;
 	global.setInterval = this.origSetInterval;
