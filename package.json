@@ -1,6 +1,6 @@
 {
   "name": "brjs-clock",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "\u001b[1;7A\u001b[BA clock for testing.",
   "main": "index.js",
   "repository": {
