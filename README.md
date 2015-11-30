@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/BladeRunnerJS/brjs-clock.svg)](https://travis-ci.org/BladeRunnerJS/brjs-clock)
 
-brjs-clock is a library that provides a Clock class that allows to control the flow of time for a testing environment.
+brjs-clock is a library that provides a Clock class that allows the test writer to control the flow of time during tests.
 
 ## Installation
 
